@@ -1,0 +1,9 @@
+button {
+    background: linear-gradient(to right, #ff0000, #00ff00, #0000ff);
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement interne du bouton */
+    border: none; /* Supprime la bordure par défaut du bouton */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur de la souris change au survol */
+  }
+  

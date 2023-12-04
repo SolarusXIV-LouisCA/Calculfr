@@ -1,0 +1,344 @@
+.bouton {
+    color: #C8C8C8;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-bottom: 10px;
+    width: auto;
+    display: inline-block;
+    max-width: max-content;
+    background: linear-gradient(to right, #153FFD, rgb(4, 4, 206), #010491);
+    box-shadow: 0 0 15px 1px #000146;
+    text-align: left;
+    font-size: 17.5pt;
+}
+
+.bouton i {
+    margin-right: 5px;
+}
+
+.bouton:hover {
+    transition: all 1.5s;
+    background: linear-gradient(to right, #e1e4f1, #a8b5ee, #7c84c4);
+    color: #091639;
+    padding: 10.25px 20.25px;
+    font-size: 20pt;
+}
+
+.refresh {
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-bottom: 10px;
+    width: auto;
+    display: inline-block;
+    max-width: max-content;
+    background-color: darkblue;
+    box-shadow: 0 0 15px 1px darkblue;
+    text-align: left;
+    font-size: 17.5pt;
+}
+
+.refresh:hover {
+    background-color: white;
+    color: darkblue;
+    padding: 12.5px 22.5px;
+}
+
+.bouton2 {
+    color: #fff;
+    border-radius: 50px;
+    padding: 15px 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-bottom: 10px;
+    width: auto;
+    display: inline-block;
+    max-width: max-content;
+    background-color: #d12c2c;
+    box-shadow: 0 0 10px rgba(0, 0, 139, 1);
+    text-align: left;
+}
+
+.button-container {
+    flex: 1;
+    box-sizing: border-box;
+    font-family: Heavyrust, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: l;
+    flex: 1;
+}
+
+.ligne {
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px #1c2bffd8;
+}
+
+.body {
+    background-color: #a3b0f7a8;
+    background: linear-gradient(to left, #a3b0f7a8, #8ea2ff);
+}
+
+.texte {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heavyrust', sans-serif;
+    color: #8097ff;
+    text-align: center;
+    text-shadow: 5px 5px 7px #000146;
+    font-size: 100pt;
+    text-shadow: 5px 5px 7px #000146, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.center-container {
+    flex-direction: column;
+    align-items: center;
+    display: inline-block;
+}
+
+.partie {
+    background-color: #1c2bffd8;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-family: Heavyrust, sans-serif;
+    color: black;
+    box-shadow: 0 0 10px rgb(161, 161, 255);
+    font-size: 15pt;
+}
+
+.partie:hover {
+    transition: all 1s;
+    padding: 12px;
+    background: linear-gradient(to right, #153FFD, #203dbb);
+}
+
+.right-container {
+    flex: 1;
+    flex-direction: right;
+    font-family: 'Heavyrust', sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.left-part {
+    flex: 1;
+}
+
+.center-part {
+    flex: 1;
+    text-align: center;
+}
+
+.right-part {
+    flex: 1;
+    text-align: right;
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0 10px 5px #000146;
+    border-color: #000146;
+    border-radius: 75px;
+}
+
+.note {
+    color: #8097ff;
+}
+
+note:hover {
+    color: #091639;
+    transition: 1s;
+    font-size: 13pt;
+}
+
+.partie2 {
+    background-color: transparent;
+    border-color: transparent;
+    text-align: left;
+    font-size: 12.5pt;
+}
+
+.partie2:hover {
+    font-size: 13pt;
+}
+
+.font1 {
+    color: blue;
+    font-size: 20pt;
+    box-shadow: 0 0 10px 1px #000146;
+}
+
+.font2 {
+    border-radius: 5px;
+    border-color: #153FFD;
+    background-color: #4466FF;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px 1px #000146;
+}
+
+.nombre {
+    background-color: #4466FF;
+    border-radius: 5px;
+    padding: 2px 15px;
+    box-shadow: 0 0 10px 1px #000146;
+    font-size: 15pt;
+}
+
+.nombre2 {
+    background-color: #b5c3ff;
+    border-radius: 5px;
+    padding: 2px 1px;
+    border-color: 000146;
+    font-size: medium;
+    box-shadow: 0 0 10px 1px #000146;
+    font-size: 15pt;
+}
+
+.nombre2:hover {
+    padding: 4px 2.5px;
+    transition: 1s;
+    font-size: 16.5pt;
+    transition: 1s;
+}
+
+.note3 {
+    color: #8097ff;
+}
+
+.partie {
+    background-color: #1c2bffd8;
+    text-align: center;
+    font-size: 15pt;
+}
+
+.logo2 {
+    width: 750px;
+    height: 300px;
+    box-shadow: 0 0 10px 5px #000146;
+    border-color: #000146;
+    border-radius: 75px;
+}
+
+.logo2:hover {
+    transition: 1s;
+    width: 800px;
+    height: 350px;
+    border-radius: 95px;
+}
+
+.partie3 {
+    text-align: left;
+    font-size: 15pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.note2 {
+    color: #000146;
+    background-color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.note:hover {
+    transition: 1s;
+    color: #4466FF !important;
+    background-color: transparent;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px 2.5px;
+    font-size: 30pt;
+}
+
+.note4 {
+    font-size: 15pt;
+    color: #000146;
+}
+
+.note4:hover {
+    transition: 1s;
+    font-size: 15.75pt;
+    color: white;
+}
+
+.partie4 {
+    background-color: #1c2bffd8;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    box-shadow: 0 0 10px rgb(161, 161, 255);
+    font-size: 15pt;
+    max-width: 650px;
+}
+
+.partie4:hover {
+    transition: all 1s;
+    padding: 12px;
+    background: linear-gradient(to right, #153FFD, #203dbb);
+}
+
+.note5 {
+    font-size: 15pt;
+    color: white;
+}
+
+.note5:hover {
+    transition: 1.5s;
+    font-size: 16.5pt;
+    color: #000146;
+}
+
+.partie5 {
+    background: linear-gradient(to right, rgb(82, 82, 241), blue, darkblue);
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    box-shadow: 0 0 10px rgb(161, 161, 255);
+    font-size: 15pt;
+    max-width: 315px;
+    max-height: 515px;
+    align-items: right;
+    cursor: copy;
+}
+
+.partie5:hover {
+    transition: all 1s;
+    padding: 12px;
+    cursor: crosshair;
+    cursor: copy;
+    background: linear-gradient(to right, #153FFD, #203dbb);
+}
+
+.schema {
+    width: 300px;
+    height: 500px;
+    align-items: right;
+    cursor: copy;
+}

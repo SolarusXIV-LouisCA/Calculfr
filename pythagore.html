@@ -1,0 +1,124 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" class="icon1">
+    <title>Calcul.fr - Pythagore</title>
+</head>
+
+<body class="body">
+    <div class="background">
+        <div class="header">
+            <div class="left-part">
+            </div>
+            <div class="center-part">
+                <img src="pythagore.jpg" alt="" class="logo2">
+            </div>
+            <div class="right-part">
+            </div>
+        </div>
+        <center>
+            <hr color="#1c2bfd" size=10px class="ligne"></hr>
+        </center>
+        <h1></h1>
+        <div class="container">
+            <div class="button-container">
+                <a href="index.html" class="bouton">
+                    <i class="fa fa-home"></i> Accueil</a>
+                <br>
+                <a href="additions-soustractions.html" class="bouton">
+                    <i class="fa fa-plus"></i>Additions/Soustractions</a>
+                <br>
+                <a href="division-decimale.html" class="bouton">
+                    <i class="fa fa-divide"></i>Division Décimale</a>
+                <br>
+                <a href="division-euclidienne.html" class="bouton">
+                    <i class="fa fa-divide"></i>Division Euclidienne</a>
+                <br>
+                <a href="thales.html" class="bouton">
+                    <i class="fa fa-superscript"></i>Thalès</a>
+                <br>
+                <a href="pythagore.html" class="bouton">
+                    <i class="fa fa-ruler"></i>Pythagore</a>
+                <br>
+                <a href="conversions.html" class="bouton">
+                    <i class="fa fa-equals"></i>Conversions</a>
+                <br>
+            </div>
+            <div class="center-container">
+                <div class="partie">              
+                    <label for="num1" class="nombre">Nombre 1:</label>
+                    <input type="number" id="num1" class="nombre2" requiered>                    
+                    <label class="nombre">cm</label>
+                    <br>
+                    <br>
+                    <label for="operator" class="nombre">Opérateur:</label>
+                    <input type="text" id="operator" class="nombre2" placeholder="Entre un /">
+                    <br>
+                    <br>
+                    <label for="num2" class="nombre">Nombre 2:</label>
+                    <input type="number" id="num2" class="nombre2" requiered>
+                    <label class="nombre">cm</label>
+                    <br>
+                    <br>
+                    <button onclick="calculate()" class="nombre2">Calculer</button>
+                    <br>
+                    <br>
+                    <div class="partie">
+                        <span id="operation"></span>
+                    </div>
+                    <script>
+                        function calculate() {
+                            var num1 = parseFloat(document.getElementById('num1').value);
+                            var num2 = parseFloat(document.getElementById('num2').value);
+                            var operator = document.getElementById('operator').value;
+                            if (isNaN(num1) || isNaN(num2)) {
+                                alert('Veuillez entrer des nombres valides.');
+                                return;
+                            }
+                            var result;
+                            if (operator === '/') {
+                                result = Math.sqrt((num1*num1) + (num2*num2));
+                            } else {
+                                alert('Tu dois entrer un  /');
+                                return;
+                            }
+                            document.getElementById('operation').innerText = "Le résultat de ton opération est : "+ num1 +" "+ operator + " " + num2 + " = " + result + " cm";
+                            alert(document.getElementById('operation').innerText = "Le résultat de ton opération est : "+ num1 +" "+ operator + " " + num2 + " = " + result + " cm")
+                        }
+                    </script>
+                
+                </div>
+                <div class="partie4">
+                    <h1><p class="note5"><i>Le Théorème : </i><br></p><p class="note4">Comme tu le sais, le théorème de Pythagore est basé sur l'égalité de sufaces carré issues d'un triangle rectangle permet de calculer des longeurs.</p></h1>
+                    <h1><p class="note5"><i>Formulation : </i><br></p><p class="note4">Si un triangle ABC est rectangle en C, alors AB² = AC² + BC².</p></h1>
+                    <h1><p class="note5"><i>Remarques : </i><br>
+                        <li class="note4">Le côté AB s'appelle l'Hypoténuse, c'est le plus grand côté.</li>    
+                        <li class="note4">Si, par exemple, je connais AB et BC alors CA = V AB²-BC²</li>
+                    </p></h1>
+                    <h1><p class="note5"><i>Réciproque du théorème de Pythagore : </i><br></p><p class="note4">Si un triangle ABC est rectangle en C, alors AB² = AC² + BC², alors le triangle est rectangle en C.</p></h1>
+                </div>
+            </div>
+            <div class="right-container">
+                <div class="partie5">
+                    <img src="pythagoreschema.jpg" class="schema"></img>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="partie">
+                <center>
+                    <h1><i class="fa fa-code" style="color: #091639;"></i>
+                    <br>
+                    <br>
+                    <a class="note3"> Ce site a été developpé par SolarusXIV avec les langages HyperText Markup Language (HTML), Cascading Style Sheets (CSS) et JavaScript (JS)</a>
+                    <br>
+                    <br>
+                    <i class="fa fa-code" style="color: #091639;"></i>
+                    </h1>
+                </center>
+            </div>
+        </footer>
+</body>
+</html>

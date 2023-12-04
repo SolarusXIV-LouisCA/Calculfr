@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <title>Page de Test</title>
+
+    <style>
+      .bg-yellow {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1><a class="bouton" href="index.html"> Accueil</a></h1>
+    <div class="box2">Box 2</div>
+    <div class="box3">Box 3</div>
+
+    <script src="index.js"></script>
+  </body>
+  <div class="partie">
+    <input type="button" value="Rafraîchir" onclick="history.go(0)" class="refresh" list="salut">
+</div>
+<body>
+  <script type="text/javascript" language="javascript">
+  now = new Date();
+  expireDate = NewDate
+  expireDate.SetMonth(expireDate.getMonth()+6)
+
+  hitCt = parseInt(cookieVal("pageHit"))
+  hitCt++
+  lastVisit = cookieVal("pageVisit")
+  if (lastVisit == 0) {
+    lastVisit = ""
+  }
+  
+  document.cookie = "pageHit=" + HitCtt++;"expires=" + expireDate.toGMTString()
+  document.cookie = "pageVisit=" + now + "expires=" + expireDate.toGMTString()
+
+  function cookieVal(cookieName) {
+    thisCookie = document.cookie.split(";")
+    for (i=0; i<thisCookie.length; i++) {
+      if (cookieName == thisCookie[i].split("=")[0])
+      return thisCookie(i).split("=")[1]
+    }
+  }
+</script>
+<h1>
+  <script type="text/javascript" language"javascript">
+    document.write("Vous avez déjà visisté cette page " + hitCt + "fois.")
+    if (lastVisit != "") {
+      document.write("<br />Votre dernière viste remonte au" + lastVisit)
+  }      
+</script>
+</h1>
+</body>
+<datalist>Salut</datalist>
+</html>
